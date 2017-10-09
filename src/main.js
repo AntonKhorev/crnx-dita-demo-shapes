@@ -74,7 +74,7 @@ const classData=preprocessClassData({
 		parents: 'regular_convex_polygon,rectangle,rhombus',
 	},
 })
-const defaultClassColumns=['circle','shape','convex_quadrilateral','rhombus','square','rectangle','parallelogram']
+const defaultClassColumns=['circle','shape','convex_quadrilateral','rhombus','square','rectangle']
 
 $(function(){
 	$('.crnx-dita-demo-shapes').each(function(){
