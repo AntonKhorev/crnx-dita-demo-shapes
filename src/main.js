@@ -1,6 +1,10 @@
 'use strict'
 
-const classData={
+const preprocessClassData=require('crnx-dita/preprocess-class-data')
+const ClassOptions=require('crnx-dita/class-options')
+const DiagramOutput=require('crnx-dita/diagram-output')
+
+const classData=preprocessClassData({
 	shape: {
 	},
 	ellipse: {
@@ -69,10 +73,8 @@ const classData={
 	square: {
 		parents: 'regular_convex_polygon,rectangle,rhombus',
 	},
-}
+})
 const defaultClassColumns=['circle','shape','convex_quadrilateral','rhombus','square','rectangle','parallelogram']
-const ClassOptions=require('crnx-dita/class-options')
-const DiagramOutput=require('crnx-dita/diagram-output')
 
 $(function(){
 	$('.crnx-dita-demo-shapes').each(function(){
