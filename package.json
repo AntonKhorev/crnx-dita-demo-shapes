@@ -1,0 +1,16 @@
+{
+  "name": "crnx-dita-demo-shapes",
+  "private": true,
+  "scripts": {
+    "gulp": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "description": "Class diagram/table demo #1",
+  "author": "Anton Khorev",
+  "license": "ISC",
+  "repository": "AntonKhorev/crnx-dita-demo-shapes",
+  "devDependencies": {
+    "crnx-build": "github:antonkhorev/crnx-build#v0.1.7",
+    "gulp": "^3.9.1"
+  }
+}
